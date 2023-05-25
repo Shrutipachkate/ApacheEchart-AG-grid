@@ -1,0 +1,25 @@
+<div>
+  <div>
+    <input type="file" (change)="onFileChange($event)" />
+  </div>
+
+  <div style="width: 500px; margin-top: 20px">
+    <image-cropper
+      [imageChangedEvent]="imgChangeEvt"
+      [aspectRatio]="4 / 4"
+      [maintainAspectRatio]="true"
+      [resizeToWidth]="300"
+      format="png"
+      (imageCropped)="cropImg($event)"
+      (imageLoaded)="imgLoad()"
+      (cropperReady)="initCropper()"
+      (loadImageFailed)="imgFailed()"
+    >
+    </image-cropper>
+  </div>
+
+  <div>
+    <h4>Preview</h4>
+    <img [src]="cropImgPreview" alt="" />
+  </div>
+</div>

@@ -1,0 +1,24 @@
+.chip {
+  border: none;
+  border-radius: 12px;
+  margin-top: 10px;
+  width: 70px;
+  height: 21px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.chip-green {
+  background-color: #ebf7ec;
+  color: #047205;
+}
+
+.chip-orange {
+  color: #a35e04;
+  background-color: #fef0dd;
+}
+.chip-normal{
+    color: black;
+}

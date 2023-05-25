@@ -1,0 +1,9 @@
+.chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .chart-container > div {
+    width: 49.75%;
+  }
