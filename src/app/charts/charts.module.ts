@@ -14,7 +14,8 @@ import { StatusComponent } from './status/status.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { ImageCropperModule } from 'ngx-image-cropper';
 import { ImageCropperComponent } from './image-cropper/image-cropper.component';
-import { IOlympicData } from './interfaces';
+import { TablesComponent } from './tables/tables.component';
+import { GridsterComponent } from './gridster/gridster.component';
 @NgModule({
   declarations: [
     LineChartComponent,
@@ -24,7 +25,9 @@ import { IOlympicData } from './interfaces';
     TableComponent,
     CellCustomComponent,
     StatusComponent,
-    ImageCropperComponent
+    ImageCropperComponent,
+    TablesComponent,
+    GridsterComponent
   ],
   imports: [
     CommonModule,

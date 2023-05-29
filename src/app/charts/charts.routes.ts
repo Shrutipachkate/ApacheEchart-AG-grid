@@ -6,6 +6,7 @@ import { LineChartComponent } from './line-chart/line-chart.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { TableComponent } from './table/table.component';
 import { ImageCropperComponent } from './image-cropper/image-cropper.component';
+import { TablesComponent } from './tables/tables.component';
 const routes: Routes = [
   {
     path: '',
